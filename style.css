@@ -1,0 +1,32 @@
+.first{
+    height: 100vh;
+    background-color: brown;
+    position: relative;
+}
+.second{
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+}
+.third{
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+
+.btnFirst, .btnSecond, .btnThird {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.btnFirst{
+    background-color: yellow;
+}
+.btnSecond {
+    background-color: red;
+}
+.btnThird {
+    background-color: black;
+}
