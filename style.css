@@ -1,17 +1,15 @@
-.first{
+section {
     height: 100vh;
-    background-color: brown;
     position: relative;
+}
+.first {
+    background-color: #F70808;   
 }
 .second{
-    height: 100vh;
-    background-color: blue;
-    position: relative;
+    background-color: #1010EE;
 }
 .third{
-    height: 100vh;
-    background-color: yellow;
-    position: relative;
+    background-color: #F0F00A;
 }
 
 .btnFirst, .btnSecond, .btnThird {
@@ -22,11 +20,11 @@
     right: 40px;
 }
 .btnFirst{
-    background-color: yellow;
+    background-color: #F0F00A;
 }
 .btnSecond {
-    background-color: red;
+    background-color: #F70808;
 }
 .btnThird {
-    background-color: black;
+    background-color: #1010EE;
 }
